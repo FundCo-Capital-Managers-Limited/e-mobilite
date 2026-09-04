@@ -21,12 +21,12 @@ export default function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 py-2.5 sm:py-3">
         <Link href="/" className="flex items-center gap-2 shrink-0">
           <Image
-            src="/images/e-mobilite-logo.svg"
+            src="/images/e-mobilite-logo-real.png"
             alt="E-Mobilite"
-            width={210}
-            height={40}
+            width={882}
+            height={402}
             priority
-            className="h-9 w-auto sm:h-10"
+            className="h-8 w-auto sm:h-9"
           />
         </Link>
 

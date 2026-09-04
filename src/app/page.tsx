@@ -132,15 +132,15 @@ export default function Home() {
         <ScrollReveal className="grid gap-10 lg:grid-cols-2 items-center rounded-3xl bg-navy text-white overflow-hidden">
           <div className="relative h-72 lg:h-full min-h-[280px]">
             <Image
-              src="/images/lagos-street.jpg"
-              alt="Everyday street life in Lagos, Nigeria"
+              src="/images/eko-atlantic.jpg"
+              alt="Eko Atlantic waterfront skyline, Lagos"
               fill
               className="object-cover"
             />
           </div>
           <div className="p-8 sm:p-10 lg:pr-12">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent mb-3">
-              Built For The Streets We Serve
+              Built For a Growing Nigeria
             </p>
             <h2 className="text-2xl sm:text-3xl font-bold mb-4">
               Nigeria&rsquo;s Roads Run on Two, Three, and Four Wheels

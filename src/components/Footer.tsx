@@ -7,10 +7,10 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-14 sm:py-16 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <Image
-            src="/images/e-mobilite-logo.svg"
+            src="/images/e-mobilite-logo-real.png"
             alt="E-Mobilite"
-            width={210}
-            height={40}
+            width={882}
+            height={402}
             className="bg-white rounded-lg px-3 py-2 h-10 w-auto"
           />
           <p className="mt-4 text-sm text-white/60 leading-relaxed max-w-xs">

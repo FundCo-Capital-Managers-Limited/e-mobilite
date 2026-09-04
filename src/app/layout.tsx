@@ -76,7 +76,7 @@ const organizationJsonLd = {
   "@type": "Organization",
   name: "E-Mobilite Limited",
   url: siteUrl,
-  logo: `${siteUrl}/images/e-mobilite-logo.svg`,
+  logo: `${siteUrl}/images/e-mobilite-logo-real.png`,
   description: siteDescription,
   parentOrganization: {
     "@type": "Organization",
