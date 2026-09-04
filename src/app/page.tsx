@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import ThreeHero from "@/components/ThreeHero";
 import ScrollReveal from "@/components/ScrollReveal";
 import Marquee from "@/components/Marquee";
@@ -124,6 +125,32 @@ export default function Home() {
               </p>
             </div>
           ))}
+        </ScrollReveal>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-6 pb-16 sm:pb-24">
+        <ScrollReveal className="grid gap-10 lg:grid-cols-2 items-center rounded-3xl bg-navy text-white overflow-hidden">
+          <div className="relative h-72 lg:h-full min-h-[280px]">
+            <Image
+              src="/images/lagos-street.jpg"
+              alt="Everyday street life in Lagos, Nigeria"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="p-8 sm:p-10 lg:pr-12">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent mb-3">
+              Built For The Streets We Serve
+            </p>
+            <h2 className="text-2xl sm:text-3xl font-bold mb-4">
+              Nigeria&rsquo;s Roads Run on Two, Three, and Four Wheels
+            </h2>
+            <p className="text-white/75 leading-relaxed">
+              From okada and keke corridors to interstate highways, E-Mobilite
+              finances the vehicles that already move this economy — just
+              electric, and priced to earn their operators more every day.
+            </p>
+          </div>
         </ScrollReveal>
       </section>
 
