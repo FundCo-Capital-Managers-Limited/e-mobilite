@@ -4,7 +4,11 @@ import ScrollReveal from "@/components/ScrollReveal";
 import EVComparisonBars from "@/components/EVComparisonBars";
 import JoinCta from "@/components/JoinCta";
 
-export const metadata: Metadata = { title: "Impact | E-Mobilite" };
+export const metadata: Metadata = {
+  title: "Impact",
+  description:
+    "How E-Mobilite's electric fleet raises daily driver income over ICE equivalents while advancing UN Sustainable Development Goals 7, 8, 9, 11 and 13 across Nigeria.",
+};
 
 const SDGS = [
   {

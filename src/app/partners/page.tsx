@@ -3,7 +3,11 @@ import PageHero from "@/components/PageHero";
 import ScrollReveal from "@/components/ScrollReveal";
 import JoinCta from "@/components/JoinCta";
 
-export const metadata: Metadata = { title: "Partners | E-Mobilite" };
+export const metadata: Metadata = {
+  title: "Partners",
+  description:
+    "The coalition behind E-Mobilite — FundCo Capital Managers, CAWIN/Transsion, Swap Station Mobility, Grosolar, NNPC, InfraCredit, the Clean Energy Fund, and Foodelo.",
+};
 
 const PARTNERS = [
   {

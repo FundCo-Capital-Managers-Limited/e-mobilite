@@ -3,7 +3,11 @@ import PageHero from "@/components/PageHero";
 import ScrollReveal from "@/components/ScrollReveal";
 import JoinCta from "@/components/JoinCta";
 
-export const metadata: Metadata = { title: "Fleet | E-Mobilite" };
+export const metadata: Metadata = {
+  title: "Fleet",
+  description:
+    "Six vehicle platforms — CAWIN electric sedans, minibuses, trucks and buses, plus E-2W bicycles and TankVolt E-3W tricycles — financed and leased under one structure with a 5-year CAWIN warranty.",
+};
 
 const VEHICLES = [
   {

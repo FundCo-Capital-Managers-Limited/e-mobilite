@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 import ContactForm from "@/components/ContactForm";
 
-export const metadata: Metadata = { title: "Contact Us | E-Mobilite" };
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description:
+    "Get in touch with E-Mobilite in Victoria Island, Lagos — for fleet operators, logistics platforms, investors, or drivers looking to finance or partner on electric mobility assets.",
+};
 
 export default function Contact() {
   return (

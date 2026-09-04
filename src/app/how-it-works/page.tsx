@@ -3,7 +3,11 @@ import PageHero from "@/components/PageHero";
 import ScrollReveal from "@/components/ScrollReveal";
 import JoinCta from "@/components/JoinCta";
 
-export const metadata: Metadata = { title: "How It Works | E-Mobilite" };
+export const metadata: Metadata = {
+  title: "How It Works",
+  description:
+    "E-Mobilite generates recurring revenue from three structures: Battery-as-a-Service swap stations, fixed monthly Fleet Lease agreements, and Ride-Now-Pay-Later hire-purchase for drivers.",
+};
 
 const STREAMS = [
   {

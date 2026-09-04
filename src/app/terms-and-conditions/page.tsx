@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 
-export const metadata: Metadata = { title: "Terms and Conditions | E-Mobilite" };
+export const metadata: Metadata = {
+  title: "Terms and Conditions",
+  description:
+    "The terms governing use of the E-Mobilite website, including acknowledgment, liability limitations, and the governing law of Nigeria.",
+};
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="text-text-secondary leading-relaxed mb-4">{children}</p>;

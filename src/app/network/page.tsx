@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import PageHero from "@/components/PageHero";
 import ScrollReveal from "@/components/ScrollReveal";
 import AnimatedCounter from "@/components/AnimatedCounter";
 import JoinCta from "@/components/JoinCta";
 
-export const metadata: Metadata = { title: "Charging Network | E-Mobilite" };
+export const metadata: Metadata = {
+  title: "Charging Network",
+  description:
+    "E-Mobilite's nationwide battery-swap and charging station network, sited on major Nigerian interstate corridors with confirmed demand and 30% solar-powered energy.",
+};
 
 const CORRIDORS = [
   { name: "Abuja – Kaduna", stations: 2, phase: "Active build-out" },
@@ -28,6 +33,8 @@ export default function Network() {
         breadcrumb="Infrastructure"
         title="Charging Stations That Open With Demand Already Confirmed"
         subtitle="Every vehicle E-Mobilite finances is contractually required to charge at an E-Mobilite station — solving the chicken-and-egg problem of EV infrastructure from Day 1."
+        image="/images/lagos-skyline.jpg"
+        imageAlt="Victoria Island, Lagos waterfront skyline"
       />
 
       <section className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
@@ -69,17 +76,31 @@ export default function Network() {
           ))}
         </ScrollReveal>
 
-        <div className="rounded-3xl bg-surface border border-border p-8 sm:p-10">
-          <h2 className="text-xl font-bold text-navy mb-6">Station Parameters</h2>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {PARAMS.map((p) => (
-              <div key={p.label} className="flex justify-between border-b border-border pb-3 text-sm">
-                <span className="text-text-secondary">{p.label}</span>
-                <span className="font-semibold text-navy text-right">{p.value}</span>
-              </div>
-            ))}
+        <ScrollReveal className="grid gap-8 lg:grid-cols-5 items-stretch rounded-3xl bg-surface border border-border overflow-hidden">
+          <div className="relative min-h-[260px] lg:col-span-2">
+            <Image
+              src="/images/solar-install.jpg"
+              alt="Solar panel installation on an industrial rooftop"
+              fill
+              className="object-cover"
+            />
           </div>
-        </div>
+          <div className="p-8 sm:p-10 lg:col-span-3">
+            <h2 className="text-xl font-bold text-navy mb-2">Station Parameters</h2>
+            <p className="text-sm text-text-secondary mb-6">
+              Solar contributes 30% of charging energy, cutting reliance on
+              grid power that loses phase 50–90% of the time in Nigeria.
+            </p>
+            <div className="grid gap-4 sm:grid-cols-2">
+              {PARAMS.map((p) => (
+                <div key={p.label} className="flex justify-between border-b border-border pb-3 text-sm">
+                  <span className="text-text-secondary">{p.label}</span>
+                  <span className="font-semibold text-navy text-right">{p.value}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </ScrollReveal>
       </section>
 
       <JoinCta />
