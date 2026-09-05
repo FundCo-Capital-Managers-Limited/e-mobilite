@@ -64,8 +64,15 @@ export default function Home() {
   return (
     <>
       <section className="relative overflow-hidden bg-navy text-white min-h-[88vh] flex items-center">
+        <Image
+          src="/images/lagos-night-lighttrails.jpg"
+          alt=""
+          fill
+          priority
+          className="object-cover opacity-40"
+        />
         <ThreeHero />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-navy/20 via-navy/60 to-navy" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-navy/40 via-navy/60 to-navy" />
         <div className="relative mx-auto max-w-7xl px-6 py-24 sm:py-28">
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-accent mb-5">
             Electric Mobility AssetCo — Nigeria
