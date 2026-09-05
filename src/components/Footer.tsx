@@ -9,8 +9,8 @@ export default function Footer() {
           <Image
             src="/images/e-mobilite-logo-real.png"
             alt="E-Mobilite"
-            width={882}
-            height={402}
+            width={1615}
+            height={480}
             className="bg-white rounded-lg px-3 py-2 h-10 w-auto"
           />
           <p className="mt-4 text-sm text-white/60 leading-relaxed max-w-xs">

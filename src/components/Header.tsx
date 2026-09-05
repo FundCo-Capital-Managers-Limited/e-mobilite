@@ -23,8 +23,8 @@ export default function Header() {
           <Image
             src="/images/e-mobilite-logo-real.png"
             alt="E-Mobilite"
-            width={882}
-            height={402}
+            width={1615}
+            height={480}
             priority
             className="h-8 w-auto sm:h-9"
           />
