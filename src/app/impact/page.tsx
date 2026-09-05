@@ -14,7 +14,7 @@ const SDGS = [
   {
     tag: "SDG 7",
     title: "Affordable & Clean Energy",
-    text: "Renewable-powered charging (30% solar) eliminates diesel in commercial transport and reduces the energy cost burden on low-income transport workers.",
+    text: "Renewable-powered charging (60% solar) eliminates diesel in commercial transport and reduces the energy cost burden on low-income transport workers.",
   },
   {
     tag: "SDG 8",

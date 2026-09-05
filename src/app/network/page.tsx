@@ -8,7 +8,7 @@ import JoinCta from "@/components/JoinCta";
 export const metadata: Metadata = {
   title: "Charging Network",
   description:
-    "E-Mobilite's nationwide battery-swap and charging station network, sited on major Nigerian interstate corridors with confirmed demand and 30% solar-powered energy.",
+    "E-Mobilite's nationwide battery-swap and charging station network, sited on major Nigerian interstate corridors with confirmed demand and 60% solar-powered energy.",
 };
 
 const CORRIDORS = [
@@ -20,7 +20,7 @@ const CORRIDORS = [
 const PARAMS = [
   { label: "Sessions target", value: "100 per day per station" },
   { label: "Revenue per session", value: "₦3,500 – ₦15,000, by battery size" },
-  { label: "Energy mix", value: "30% solar / 70% grid" },
+  { label: "Energy mix", value: "60% solar / 40% grid" },
   { label: "Grid pricing", value: "Buy at ₦220/kWh, sell at ₦450/kWh" },
   { label: "Station footprint", value: "Minimum 600 sqm, standalone" },
   { label: "Land provider", value: "NNPC, via SSM partnership" },
@@ -88,7 +88,7 @@ export default function Network() {
           <div className="p-8 sm:p-10 lg:col-span-3">
             <h2 className="text-xl font-bold text-navy mb-2">Station Parameters</h2>
             <p className="text-sm text-text-secondary mb-6">
-              Solar contributes 30% of charging energy, cutting reliance on
+              Solar contributes 60% of charging energy, cutting reliance on
               grid power that loses phase 50–90% of the time in Nigeria.
             </p>
             <div className="grid gap-4 sm:grid-cols-2">

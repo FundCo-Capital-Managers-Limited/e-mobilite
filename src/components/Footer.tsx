@@ -61,7 +61,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-white/10 py-6 text-center text-xs text-white/40">
-        © {new Date().getFullYear()} E-Mobilite Limited. A FundCo Capital Managers portfolio company. All Rights Reserved.
+        © {new Date().getFullYear()} E-Mobilite Limited. All Rights Reserved.
       </div>
     </footer>
   );

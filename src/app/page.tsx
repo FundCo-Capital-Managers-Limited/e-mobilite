@@ -252,7 +252,7 @@ export default function Home() {
             <p className="mt-3 text-sm text-text-secondary">Minutes per battery swap</p>
           </div>
           <div className="rounded-2xl border border-border bg-white p-6 sm:p-8 text-center shadow-sm">
-            <AnimatedCounter value={30} suffix="%" className="text-3xl sm:text-4xl font-bold text-brand" />
+            <AnimatedCounter value={60} suffix="%" className="text-3xl sm:text-4xl font-bold text-brand" />
             <p className="mt-3 text-sm text-text-secondary">Of charging energy from solar</p>
           </div>
         </div>
