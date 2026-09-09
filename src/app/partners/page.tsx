@@ -7,7 +7,7 @@ import JoinCta from "@/components/JoinCta";
 export const metadata: Metadata = {
   title: "Partners",
   description:
-    "The coalition behind E-Mobilite — FundCo Capital Managers, CAWIN/Transsion, Swap Station Mobility, Grosolar, NNPC, InfraCredit, the Clean Energy Fund, and Foodelo.",
+    "The coalition behind E-Mobilite — FundCo Capital Managers, CAWIN/Transsion, Swap Station Mobility, Grosolar, NNPC, InfraCredit, the Clean Energy Fund, DREEF, and Foodelo.",
 };
 
 const PARTNERS = [
@@ -52,6 +52,18 @@ const PARTNERS = [
     logo: null,
     role: "Demonstration Offtaker",
     text: "Foodelo is a Nigerian food delivery platform serving as the anchor lessee for the E-2W pilot on the Lagos–Abeokuta corridor. Successful completion opens the pathway to larger platforms including Chowdeck, Glovo, FoodCourt, and Heyfood.",
+  },
+  {
+    name: "Clean Energy Local Currency Fund (CEF)",
+    logo: "/images/partners/clean-energy-fund.png",
+    role: "Concessional Capital Provider",
+    text: "The Clean Energy Local Currency Fund is FundCo Capital Managers' regulated climate-infrastructure fund — Climate Bonds Certified and rated BBB by GCR/Agusto. It provides the concessional tranche that blends down the cost of capital for the E-Mobilite programme.",
+  },
+  {
+    name: "DREEF (Distributed Renewable Energy Enhancement Facility)",
+    logo: "/images/partners/dreef.svg",
+    role: "Project Preparation Facility",
+    text: "DREEF is a project-preparation facility established by InfraCredit with the World Bank Group, backed by the Clean Energy Fund, KfW, and Convergence, with Deloitte serving as Technical Assistance Facility Manager. It supports the development of distributed renewable energy infrastructure underpinning the E-Mobilite programme.",
   },
 ];
 

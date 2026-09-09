@@ -51,6 +51,7 @@ const PARTNERS = [
   "NNPC",
   "InfraCredit",
   "Clean Energy Fund",
+  "DREEF",
   "Foodelo",
 ];
 
